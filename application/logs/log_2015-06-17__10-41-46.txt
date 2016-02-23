@@ -1,0 +1,39 @@
+[2015-06-17 10:41:47] Memulai sinkronisasi. 
+[2015-06-17 10:41:56] RTS 
+[2015-06-17 10:41:59] prolog 
+[2015-06-17 10:41:59] Proses mengirim data ke server. 
+[2015-06-17 10:41:59] Mengirim data ke server. 
+[2015-06-17 10:42:00] Mengirim data 50% [Bobot Nilai] 
+[2015-06-17 10:42:00] RTS 
+[2015-06-17 10:42:03] push_data_server_parsial 
+[2015-06-17 10:42:03] RTS 
+[2015-06-17 10:42:03] insert_table_sync_log 
+[2015-06-17 10:42:03] Mengirim data 100% [Matkul] 
+[2015-06-17 10:42:04] RTS 
+[2015-06-17 10:42:07] push_data_server_parsial 
+[2015-06-17 10:42:07] RTS 
+[2015-06-17 10:42:10] push_data_server_parsial 
+[2015-06-17 10:42:11] RTS 
+[2015-06-17 10:42:14] push_data_server_parsial 
+[2015-06-17 10:42:14] RTS 
+[2015-06-17 10:42:14] insert_table_sync_log 
+[2015-06-17 10:42:14] Mengecek data referensi dari server. 
+[2015-06-17 10:42:15] RTS 
+[2015-06-17 10:42:15] check_update 
+[2015-06-17 10:42:17] Mengambil data referensi 100% [Semester] 
+[2015-06-17 10:42:17] RTS 
+[2015-06-17 10:42:17] get_change_server_table_ref 
+[2015-06-17 10:42:17] RTS 
+[2015-06-17 10:42:17] insert_table_sync_log 
+[2015-06-17 10:42:18] Mengecek data dari server. 
+[2015-06-17 10:42:18] RTS 
+[2015-06-17 10:42:42] check_update 
+[2015-06-17 10:42:42] RTS 
+[2015-06-17 10:42:42] check_update 
+[2015-06-17 10:42:42] RTS 
+[2015-06-17 10:42:42] check_update 
+[2015-06-17 10:42:42] Mengambil data 5% [Aplikasi] 
+[2015-06-17 10:42:43] RTS 
+[2015-06-17 10:42:43] get_data_server_paging 
+[2015-06-17 10:42:43] Mengambil data 5% [Aplikasi] 
+[2015-06-17 10:42:46] Proses dihentikan karena reload browser 

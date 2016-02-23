@@ -1,0 +1,4 @@
+[2015-09-02 16:29:01] Memulai sinkronisasi. 
+[2015-09-02 16:29:02] RTS 
+[2015-09-02 16:29:03] Perguruan Tinggi Anda belum mempunyai akses sinkronisasi, silahkan menghubungi DIKTI atau Kopertis wilayah masing-masing. 
+[2015-09-02 16:29:03] Perguruan Tinggi Anda belum mempunyai akses sinkronisasi, silahkan menghubungi DIKTI atau Kopertis wilayah masing-masing. 

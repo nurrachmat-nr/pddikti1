@@ -1,0 +1,118 @@
+[2015-06-16 11:50:56] Memulai sinkronisasi. 
+[2015-06-16 11:50:57] RTS 
+[2015-06-16 11:50:59] prolog 
+[2015-06-16 11:50:59] Proses mengirim data ke server. 
+[2015-06-16 11:51:00] Mengirim data ke server. 
+[2015-06-16 11:51:00] Mengirim data 33% [Bobot Nilai] 
+[2015-06-16 11:51:00] RTS 
+[2015-06-16 11:51:03] push_data_server_parsial 
+[2015-06-16 11:51:03] RTS 
+[2015-06-16 11:51:03] insert_table_sync_log 
+[2015-06-16 11:51:03] Mengirim data 67% [Matkul] 
+[2015-06-16 11:51:04] RTS 
+[2015-06-16 11:51:11] push_data_server_parsial 
+[2015-06-16 11:51:11] RTS 
+[2015-06-16 11:51:16] push_data_server_parsial 
+[2015-06-16 11:51:17] RTS 
+[2015-06-16 11:51:17] insert_table_sync_log 
+[2015-06-16 11:51:17] Mengirim data 100% [Nilai Smt Mhs] 
+[2015-06-16 11:51:18] RTS 
+[2015-06-16 11:51:20] push_data_server_parsial 
+[2015-06-16 11:51:20] RTS 
+[2015-06-16 11:51:21] insert_table_sync_log 
+[2015-06-16 11:51:21] Mengecek data referensi dari server. 
+[2015-06-16 11:51:21] RTS 
+[2015-06-16 11:51:21] check_update 
+[2015-06-16 11:51:23] Mengambil data referensi 100% [Semester] 
+[2015-06-16 11:51:23] RTS 
+[2015-06-16 11:51:23] get_change_server_table_ref 
+[2015-06-16 11:51:23] RTS 
+[2015-06-16 11:51:23] insert_table_sync_log 
+[2015-06-16 11:51:24] Mengecek data dari server. 
+[2015-06-16 11:51:24] RTS 
+[2015-06-16 11:51:32] check_update 
+[2015-06-16 11:51:32] RTS 
+[2015-06-16 11:51:32] check_update 
+[2015-06-16 11:51:32] RTS 
+[2015-06-16 11:51:32] check_update 
+[2015-06-16 11:51:32] Mengambil data 5% [Aplikasi] 
+[2015-06-16 11:51:33] RTS 
+[2015-06-16 11:51:33] get_data_server_paging 
+[2015-06-16 11:51:33] Mengambil data 5% [Aplikasi] 
+[2015-06-16 11:51:33] Mengambil data 10% [Menu] 
+[2015-06-16 11:51:34] RTS 
+[2015-06-16 11:51:34] get_data_server_paging 
+[2015-06-16 11:51:34] Mengambil data 10% [Menu] 
+[2015-06-16 11:51:34] Mengambil data 15% [Peran] 
+[2015-06-16 11:51:34] RTS 
+[2015-06-16 11:51:34] get_data_server_paging 
+[2015-06-16 11:51:34] Mengambil data 15% [Peran] 
+[2015-06-16 11:51:34] Mengambil data 20% [Pengguna] 
+[2015-06-16 11:51:34] RTS 
+[2015-06-16 11:51:35] get_data_server_paging 
+[2015-06-16 11:51:35] Mengambil data 20% [Pengguna] 
+[2015-06-16 11:51:35] Mengambil data 25% [Unit Organisasi] 
+[2015-06-16 11:51:35] RTS 
+[2015-06-16 11:51:35] get_data_server_paging 
+[2015-06-16 11:51:35] Mengambil data 25% [Unit Organisasi] 
+[2015-06-16 11:51:35] Mengambil data 30% [Menu Role] 
+[2015-06-16 11:51:35] RTS 
+[2015-06-16 11:51:35] get_data_server_paging 
+[2015-06-16 11:51:35] Mengambil data 30% [Menu Role] 
+[2015-06-16 11:51:35] Mengambil data 35% [Role Pengguna] 
+[2015-06-16 11:51:35] RTS 
+[2015-06-16 11:51:36] get_data_server_paging 
+[2015-06-16 11:51:36] Mengambil data 35% [Role Pengguna] 
+[2015-06-16 11:51:36] Mengambil data 40% [Log Pengguna] 
+[2015-06-16 11:51:36] RTS 
+[2015-06-16 11:51:36] get_data_server_paging 
+[2015-06-16 11:51:36] Mengambil data 40% [Log Pengguna] 
+[2015-06-16 11:51:36] Mengambil data 45% [Ekuiv Transfer] 
+[2015-06-16 11:51:36] RTS 
+[2015-06-16 11:51:37] get_data_server_paging 
+[2015-06-16 11:51:37] Mengambil data 45% [Ekuiv Transfer] 
+[2015-06-16 11:51:37] Mengambil data 50% [Litabmas] 
+[2015-06-16 11:51:37] RTS 
+[2015-06-16 11:51:37] get_data_server_paging 
+[2015-06-16 11:51:37] Mengambil data 50% [Litabmas] 
+[2015-06-16 11:51:37] Mengambil data 55% [Pembicara] 
+[2015-06-16 11:51:37] RTS 
+[2015-06-16 11:51:37] get_data_server_paging 
+[2015-06-16 11:51:37] Mengambil data 55% [Pembicara] 
+[2015-06-16 11:51:37] Mengambil data 60% [Skim Kegiatan] 
+[2015-06-16 11:51:37] RTS 
+[2015-06-16 11:51:38] get_data_server_paging 
+[2015-06-16 11:51:38] Mengambil data 60% [Skim Kegiatan] 
+[2015-06-16 11:51:38] Mengambil data 65% [Buku Ajar] 
+[2015-06-16 11:51:38] RTS 
+[2015-06-16 11:51:38] get_data_server_paging 
+[2015-06-16 11:51:38] Mengambil data 65% [Buku Ajar] 
+[2015-06-16 11:51:38] Mengambil data 70% [Ptk Anggota Litabmas] 
+[2015-06-16 11:51:38] RTS 
+[2015-06-16 11:51:38] get_data_server_paging 
+[2015-06-16 11:51:38] Mengambil data 70% [Ptk Anggota Litabmas] 
+[2015-06-16 11:51:38] Mengambil data 75% [Non Ca] 
+[2015-06-16 11:51:38] RTS 
+[2015-06-16 11:51:38] get_data_server_paging 
+[2015-06-16 11:51:38] Mengambil data 75% [Non Ca] 
+[2015-06-16 11:51:38] Mengambil data 80% [Visiting Scientist] 
+[2015-06-16 11:51:38] RTS 
+[2015-06-16 11:51:39] get_data_server_paging 
+[2015-06-16 11:51:39] Mengambil data 80% [Visiting Scientist] 
+[2015-06-16 11:51:39] Mengambil data 85% [Non Ca Anggota Litabmas] 
+[2015-06-16 11:51:39] RTS 
+[2015-06-16 11:51:39] get_data_server_paging 
+[2015-06-16 11:51:39] Mengambil data 85% [Non Ca Anggota Litabmas] 
+[2015-06-16 11:51:39] Mengambil data 90% [Publikasi] 
+[2015-06-16 11:51:39] RTS 
+[2015-06-16 11:51:39] get_data_server_paging 
+[2015-06-16 11:51:39] Mengambil data 90% [Publikasi] 
+[2015-06-16 11:51:39] Mengambil data 95% [Pd Anggota Litabmas] 
+[2015-06-16 11:51:39] RTS 
+[2015-06-16 11:51:39] get_data_server_paging 
+[2015-06-16 11:51:39] Mengambil data 95% [Pd Anggota Litabmas] 
+[2015-06-16 11:51:39] Mengakhiri sinkronisasi. 
+[2015-06-16 11:51:39] RTS 
+[2015-06-16 11:51:39] epilog 
+[2015-06-16 11:51:40]  update or delete on table "ptk" violates foreign key constraint "fk_rwy_fung_jab_fung__ptk" on table "rwy_fungsional"
+delete from public.ptk where soft_delete=1 and last_update=last_sync 

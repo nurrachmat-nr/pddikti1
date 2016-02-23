@@ -1,0 +1,148 @@
+p {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+td {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.small-form { font-family: Verdana; font-size: 8pt}
+.input {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #660033; text-decoration: none; background-color: #FFCC66; border: 1px #660033 solid}
+.input_trans {  font-family: Times new roman,Verdana, Arial, Helvetica, sans-serif; font-size: 16px; color: #000000;font-weight: none; text-decoration: none; background-color: #FEFCAB; border: 0px #660033 solid}
+/*a:link {  color: #0000FF; text-decoration: none}
+a:visited {  color: #0000FF; text-decoration: none}
+a:hover {  color: #FF0000; text-decoration: underline}
+a:active {  color: #3399CC}*/
+.def-font {  font-size: 8pt}
+
+
+.button_menu:hover {background-color: #F0E8AC; color: #000000;
+			border-top: solid 1px #33521A; 
+			border-right: solid 1px #ddddff; 
+			border-bottom: solid 1px #ddddff; 
+			text-decoration: none;
+			border-left: solid 1px #33521A}
+.button_menu {padding: 1px;  text-align: center;
+		background-color: #F86F00; font-size:10px; 
+		font-family:verdana; color:#FFFFFF; font-weight:bold; 
+		border-top: solid 1px #FFCF96; 
+		border-left: solid 1px #FFCF96;  
+		border-right: solid 1px #AD540B; 
+		border-bottom: solid 1px #AD540B;
+		text-decoration: none; width:100%}
+.judul_menu{font-family: verdana,tahoma,arial; font-size: 11pt;font-weight: bold;color: #FFFC00;}
+
+.copy{font-family: verdana; font-size: 10px; color: #006BD7 ;font-weight: none;}
+.copyright{font-family: verdana; font-size: 10px; color: #FFFFFF ;font-weight: none;}
+.text_cetak{font-family: arial Narrow; font-size: 10px; color: #000000 ;font-weight: none;}
+.text11{font-family: Verdana; font-size: 11pt;}
+.text11p{font-family: Times new roman, Verdana; font-size: 10pt;}
+.t11b{font-family: Verdana; font-size: 11pt;font-weight: bold;}
+.text10{font-family: Verdana; font-size: 10pt;}
+.red{font-family: Verdana; font-size: 8pt; color: #E10005;}
+.text9{font-family: Verdana; font-size: 9pt;}
+.text_4{font-family: arial Narrow; font-size: 4pt;}
+.text_5{font-family: arial Narrow; font-size: 5pt;}
+.text_6{font-family: arial; font-size: 6.3pt;}
+.text_6a{font-family: arial; font-size: 6.3pt;}
+.text_7{font-family: arial; font-size: 7pt;}
+.text_8{font-family: arial Narrow; font-size: 8pt;}
+.text_9{font-family: arial; font-size: 9pt;}
+
+.row1Result {    background-color: #F6F5F5}
+.row2Result {  background-color: #FFFFFF}
+.bottomline1Result {  font-weight: bold; background-color: #DFDFDF}
+.title1Print {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt; font-weight: bold; color: #000000; text-align: center}
+.texthelp {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 19pt; font-weight: none; color: #000000; text-align: center}
+.row1Print {  }
+.row2Print {  background-color: #F7F7F7}
+.head1Print {  font-weight: bold; background-color: #CCCCCC; color: #000000; text-align: center}
+.head2Print {  font-size: 6pt; color: #000000; background-color: #CCCCCC; font-family: Arial, Helvetica, sans-serif}
+.bottomline1Print {  font-weight: bold; background-color: #CCCCCC}
+.headform {  font-size: 16px; font-weight: bold; text-align: center; text-transform: none; font-family: Verdana, Arial, Helvetica, sans-serif; color: #DD5800}
+.requiredfield {  color: #FF0000}
+.printNo {  font-size: 14pt; font-weight: bold}
+.noPrint { font-size: 14pt; font-weight: bold }
+.cellCorrected {  background-color: #FFFF99}
+.head1Result {  font-weight: bold; background-color: #CDD6DA; color: #4D4847}
+.over-budget {  color: #FF0000}
+.row1Red {  color: #FF0000}
+.row2Red {  color: #FF0000; background-color: #F3F4FC}
+.input {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #660033; text-decoration: none; background-color: #FCDBE1; border: 1px #660033 solid}
+.inputnilai {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #ffffff; 
+	text-decoration: none; 
+	background-color: #DC0000; 
+	border-left: 	solid 1px #4C0202;
+	border-top: 	solid 1px #4C0202; 
+	border-right: 	solid 1px #F0F2F5; 
+	border-bottom: 	solid 1px #F0F2F5}
+.lupass {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 15px; 
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none; 
+	background-color: #000000; 
+	border-left: 	solid 1px #4C0202;
+	border-top: 	solid 1px #4C0202; 
+	border-right: 	solid 1px #F0F2F5; 
+	border-bottom: 	solid 1px #F0F2F5}
+.btn {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; color: #000000; text-decoration: none; 
+	background-color: #FACB12; 
+	border-left: 		solid 1px #92B7EE;
+	border-top: 		solid 1px #92B7EE; 
+	border-right: 		solid 1px #0D1F3C; 
+	border-bottom: 		solid 1px #0D1F3C; 
+}
+.btnab {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; color: #FFFFFF; text-decoration: none; 
+	background-color: #10DD06; 
+	border-left: 		solid 1px #D1D7D9;
+	border-top: 		solid 1px #D1D7D9; 
+	border-right: 		solid 1px #012837; 
+	border-bottom: 		solid 1px #012837; 
+}
+.btnm {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; color: #FFFFFF; text-decoration: none; 
+	background-color: #205721; 
+	border-left: 		solid 1px #D1D7D9;
+	border-top: 		solid 1px #D1D7D9; 
+	border-right: 		solid 1px #012837; 
+	border-bottom: 		solid 1px #012837; 
+}
+.btns {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; color: #FFFFFF; text-decoration: none; 
+	background-color: #FF4800; 
+	border-left: 		solid 1px #F4E9E4;
+	border-top: 		solid 1px #F4E9E4; 
+	border-right: 		solid 1px #692105; 
+	border-bottom: 		solid 1px #692105; 
+}
+.btnbl {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; color: #FFFFFF; text-decoration: none; 
+	background-color: #000000; 
+	border-left: 		solid 1px #EAEAE8;
+	border-top: 		solid 1px #EAEAE8; 
+	border-right: 		solid 1px #7F7F7B; 
+	border-bottom: 		solid 1px #7F7F7B; 
+}
+.btnoff {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; color: #FFFFFF; text-decoration: none; 
+	background-color: #D9D9D9; 
+	border-left: 		solid 1px #FAFAFA;
+	border-top: 		solid 1px #FAFAFA; 
+	border-right: 		solid 1px #9A9A9A; 
+	border-bottom: 		solid 1px #9A9A9A; 
+}
+.menu_link A:visited, .judul A:link, .judul A:active {
+	color:#ffffff; 
+}
+.gr_blank {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; color: #000000; text-decoration: none; 
+	background-color: #FFF788; border: 0px #ffffff solid;
+}

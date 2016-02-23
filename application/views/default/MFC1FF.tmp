@@ -1,0 +1,72 @@
+<br/>
+
+<div class="row-fluid">
+	<div class="span2"></div>
+	<div class="span8 login-wrapper2">
+	<div class="top-left-accent">
+				<span class="top-left-accent-text ">
+					<span class="no-margin line-normal" style="font-size:30px;">PDDIKTI</span> | PANGKALAN DATA PENDIDIKAN TINGGI</h3>
+				</span>			</div>
+		<div class="span6 left-container">
+			
+			<div class="bottom-left">
+				<img src="<?= base_assets().'/images/tutwuri.png' ?>" class="logopdpt" alt="logo TUTWURI" />
+				
+				<div>Jika Anda mengalami permasalahan dengan sistem ini, silahkan emailkan ke <a href="mailto:">-</a>.
+				</div>
+			</div>
+		</div>
+		<div class="span6 right-container" style="margin-left:0px;width:51%">
+			<div class="bottom-right">
+				<form method="post">
+					
+					<h3 style="color:#0173ba">Silahkan Login</h3>
+					<br/>
+					<?php if (!$no_form): ?>
+					<input type="hidden" name="act" value="login" />
+					<div class="bottom-right-form-container">
+						<input type="text" class="username-input" id="username" name="username" value="<?php echo $record['username'] ?>" placeholder="Username" />
+						<br>
+						<input type="password" class="password-input" id="password" name="password" placeholder="Password" />
+                    </div>
+                    <a href="<?= base_url("register")?>">Data Awal</a> 
+                    <?php /*?>, 
+                    <a href="<?= "$ctl/forgot"?>">Lupa Password ?</a><?php */?>
+					<div class="bottom-right-login-container">
+						<input type="submit" class="rounded-submit" value="Login" />
+					</div>
+					<?php else: ?>
+						<input type="hidden" name="act" value="captcha" />
+						<?php if ($this->session->flashdata('err_captcha')): ?>
+						<div class="alert alert-error" style="width: 200px;text-align:center;margin:0 auto "><?php echo $this->session->flashdata('err_captcha') ?></div>
+						<br/>
+						<?php endif; ?>
+						
+						<?php /*?><div style="text-align: center">
+						<img id="image_captcha" src="<?php echo base_url() ?>application/gate/libraries/kcaptcha/index.php" title="Refresh" id="captcha" style="cursor:pointer"
+							onClick="this.src='<?php echo base_url() ?>application/gate/libraries/kcaptcha/index.php?'+Math.random();">
+						<br/><br/>
+						<span class="form-inline">
+						<input type="text" name="captcha" id="captcha" placeholder="Isi text di atas" style="width:150px" /> <button class="btn btn-small" type="submit">Go</button>
+						</span>
+						</div><?php */?>
+					<?php endif; ?>
+				</form>
+				<div class="row-fluid" style="margin:0 auto;width:300px;position:relative;bottom:290px;"><?php echo $notification ?></div>
+			</div>
+		</div>
+	</div>
+	<div class="span2"></div>
+</div>
+<br />
+<div class="row-fluid">
+	<div class="span6 offset3 alert alert-danger" align="center">
+		Harap gunakan layanan PDDIKTI dengan baik, wajar, dan penuh tanggung jawab.
+	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#username').focus();
+});
+</script>

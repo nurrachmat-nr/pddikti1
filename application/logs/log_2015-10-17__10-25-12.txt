@@ -1,0 +1,4 @@
+[2015-10-17 10:25:13] Memulai sinkronisasi. 
+[2015-10-17 10:25:14] RTS 
+[2015-10-17 10:25:16] prolog 
+[2015-10-17 10:25:16] Sedang memperbarui sinkronisasi. 

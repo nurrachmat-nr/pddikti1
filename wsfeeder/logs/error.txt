@@ -1,0 +1,6 @@
+[17-09-2015 15:38:38] Error - Mahasiswa dengan NIM '005410074 tidak terdaftar
+[17-09-2015 15:38:38] Error - Mahasiswa dengan NIM '005410079 tidak terdaftar
+[17-09-2015 15:38:38] Error - Mahasiswa dengan NIM '005410080 tidak terdaftar
+[17-09-2015 15:42:23] [ERROR-AKM] [344067] - Mahasiswa dengan NIM '005410074 tidak terdaftar
+[17-09-2015 15:42:23] [ERROR-AKM] [344067] - Mahasiswa dengan NIM '005410079 tidak terdaftar
+[17-09-2015 15:42:23] [ERROR-AKM] [344067] - Mahasiswa dengan NIM '005410080 tidak terdaftar

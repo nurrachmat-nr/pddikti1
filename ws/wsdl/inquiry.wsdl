@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="InquiryService"
+   targetNamespace="http://127.0.0.1/unesa/lokal/wsdl/inquiry.wsdl"
+   xmlns="http://schemas.xmlsoap.org/wsdl/"
+   xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+   xmlns:tns="http://127.0.0.1/unesa/lokal/wsdl/inquiry.wsdl"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsd1="http://127.0.0.1/unesa/lokal/wsdl/schema">
+ 
+   <types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema"
+         targetNamespace="http://127.0.0.1/unesa/lokal/wsdl/schema"
+         xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+         xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+ 
+        <element name="InquiryRequest">
+            <complexType>
+                <all>
+                    <element minOccurs="0" maxOccurs="1" name="nim" type="string"/>
+                    <element minOccurs="0" maxOccurs="1" name="typeInq" type="string"/>
+                    <element minOccurs="0" maxOccurs="1" name="cred" type="string"/>
+                    <element minOccurs="0" maxOccurs="1" name="trxDateTime" type="string" />
+                    <element minOccurs="0" maxOccurs="1" name="transmissionDateTime" type="string" />
+                    <element minOccurs="0" maxOccurs="1" name="companyCode" type="string" />
+                    <element minOccurs="0" maxOccurs="1" name="channelID" type="string" />
+                    <element minOccurs="0" maxOccurs="1" name="terminalID" type="string" />
+                </all>
+            </complexType>
+        </element>
+        <complexType name="BillDetail">
+            <sequence>
+                <element minOccurs="0" maxOccurs="1" name="billID" type="string" />
+                <element minOccurs="0" maxOccurs="1" name="billCode" type="string" />
+                <element minOccurs="0" maxOccurs="1" name="billName" type="string" />
+                <element minOccurs="0" maxOccurs="1" name="billAmount" type="string" />
+                <element minOccurs="0" maxOccurs="1" name="isAngsur" type="string" />
+                <element minOccurs="0" maxOccurs="1" name="periode" type="string" />
+                <element minOccurs="0" maxOccurs="1" name="currency" type="string" />
+            </sequence>
+        </complexType>
+        <complexType name="ArrayOfBillDetail">
+            <complexContent>
+               <restriction base="soapenc:Array">
+                  <attribute ref="soapenc:arrayType"
+                  wsdl:arrayType="xsd1:BillDetail[]"/>
+               </restriction>
+            </complexContent>
+        </complexType>
+        <complexType name="Status">
+            <sequence>
+                <element minOccurs="1" maxOccurs="1" name="isError" type="boolean" />
+                <element minOccurs="0" maxOccurs="1" name="errorCode" type="string" />
+                <element minOccurs="0" maxOccurs="1" name="statusDescription" type="string" />
+            </sequence>
+        </complexType>
+        <complexType name="InquiryResponse">
+            <sequence>
+                <element minOccurs="0" maxOccurs="1" name="nim" type="string" />
+                <element minOccurs="0" maxOccurs="1" name="nama" type="string" />
+                <element minOccurs="0" maxOccurs="1" name="jenjang" type="string" />
+                <element minOccurs="0" maxOccurs="1" name="fakultas" type="string" />
+                <element minOccurs="0" maxOccurs="1" name="jurusan" type="string" />
+                <element minOccurs="0" maxOccurs="1" name="kelas" type="string" />
+                <element minOccurs="0" maxOccurs="1" name="jalur" type="string" />
+                <element minOccurs="0" maxOccurs="1" name="numBill" type="int" />
+                <element minOccurs="0" maxOccurs="1" name="totTunggakan" type="string" />
+                <element minOccurs="0" maxOccurs="1" name="billDetails" type="xsd1:ArrayOfBillDetail" />
+                <element minOccurs="0" maxOccurs="1" name="status" type="xsd1:Status" />
+            </sequence>
+        </complexType>
+
+      </schema>
+   </types>
+
+    <message name="InquiryRequest">
+        <part name="input" element="xsd1:InquiryRequest"/>
+    </message>
+
+    <message name="InquiryResponse">
+        <part name="return" type="xsd1:InquiryResponse"/>
+    </message>
+
+    <portType name="InquiryPortType">
+        <operation name="inquiry">
+           <input message="tns:InquiryRequest"/>
+           <output message="tns:InquiryResponse"/>
+        </operation>
+    </portType>
+ 
+    <binding name="InquiryBinding" type="tns:InquiryPortType">
+        <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name="inquiry">
+           <soap:operation soapAction="urn:examples:inquiryservice"/>
+           <input>
+               <soap:body use="encoded" namespace="urn:examples:inquiryservice"
+                          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+           </input>
+           <output>
+               <soap:body use="encoded" namespace="urn:examples:inquiryservice"
+                          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+           </output>
+        </operation>
+    </binding>
+ 
+    <service name="InquiryService">
+        <documentation>Inquiry soap service</documentation>
+        <port name="InquiryPort" binding="tns:InquiryBinding">
+           <soap:address location="http://127.0.0.1/unesa/lokal/inquiry.php"/>
+        </port>
+    </service>
+</definitions>

@@ -1,0 +1,4 @@
+[2015-10-17 10:25:17] Sedang memperbarui sinkronisasi. 
+[2015-10-17 10:25:17] RTS 
+[2015-10-17 10:25:17] update_versi 
+[2015-10-17 10:25:17] _restart_ 

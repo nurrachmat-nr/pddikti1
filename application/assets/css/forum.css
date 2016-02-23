@@ -1,0 +1,63 @@
+ul#ul-main{
+    margin-left: 5px !important;
+    margin-top: 15px !important;
+}
+ul.sub{
+    list-style: none outside none;
+    background-color:#eff8f8;
+    margin-left: 50px; 
+}
+ul.sub li.sub-comment{
+    border-top: 1px solid #ddd;
+}
+ul.sub li div.profil-image{
+    float: left;padding:5px 0 0 5px;    
+}
+li{
+    list-style: none outside none;    
+}
+div.main-wrap{
+    margin-right: 15px;padding: 5px;margin-bottom: 10px    
+}
+div.wrap{
+    width: 100%;
+    background-color:#eff8f8;
+    border-top: 1px solid #ddd;
+    margin-top:5px
+}
+div.content{
+    padding:5px 20px 5px 20px;
+    font-size: 12px;
+    font-family: Tahoma, Arial;
+}
+div.like{
+    border-top: 1px solid #ddd;
+    font-size: 11px;
+}
+div.sub-like{
+    font-size: 11px;
+    padding-left: 50px;
+    padding-bottom : 5px;
+}
+div.sub-content{
+    padding:5px 15px 5px 50px;
+    font-size: 12px;
+    font-family: Tahoma, Arial;    
+}
+div.comment-template{
+    margin:0 15px 10px 0;
+    padding: 5px;
+    display: none;
+}
+div.hidden-comment{
+    background-color:#eff8f8;
+    border-top: 1px solid #ddd;    
+}
+span.profil-image{
+    float: left;   
+}
+span.profil{
+    float: left;
+    margin-left: 5px;
+    width: 95%
+}

@@ -1,0 +1,157 @@
+[2015-10-17 10:25:34] Memulai sinkronisasi. 
+[2015-10-17 10:25:34] RTS 
+[2015-10-17 10:25:35] prolog 
+[2015-10-17 10:25:35] Proses mengirim data ke server. 
+[2015-10-17 10:25:36] Mengirim data ke server. 
+[2015-10-17 10:25:36] Mengirim data 8% [Yayasan] 
+[2015-10-17 10:25:36] RTS 
+[2015-10-17 10:25:38] push_data_server_parsial 
+[2015-10-17 10:25:38]  
+[2015-10-17 10:25:38] RTS 
+[2015-10-17 10:25:39] insert_table_sync_log 
+[2015-10-17 10:25:39] Mengirim data 17% [Bobot Nilai] 
+[2015-10-17 10:25:39] RTS 
+[2015-10-17 10:25:41] push_data_server_parsial 
+[2015-10-17 10:25:41] RTS 
+[2015-10-17 10:25:44] insert_table_sync_log 
+[2015-10-17 10:25:44] Mengirim data 25% [Kurikulum Sp] 
+[2015-10-17 10:25:45] RTS 
+[2015-10-17 10:25:47] push_data_server_parsial 
+[2015-10-17 10:25:48] RTS 
+[2015-10-17 10:25:48] insert_table_sync_log 
+[2015-10-17 10:25:48] Mengirim data 33% [Matkul] 
+[2015-10-17 10:25:48] RTS 
+[2015-10-17 10:25:58] push_data_server_parsial 
+[2015-10-17 10:25:59] RTS 
+[2015-10-17 10:26:04] push_data_server_parsial 
+[2015-10-17 10:26:04] RTS 
+[2015-10-17 10:26:05] insert_table_sync_log 
+[2015-10-17 10:26:05] Mengirim data 42% [Matkul Kurikulum] 
+[2015-10-17 10:26:05] RTS 
+[2015-10-17 10:26:09] push_data_server_parsial 
+[2015-10-17 10:26:10] RTS 
+[2015-10-17 10:26:10] insert_table_sync_log 
+[2015-10-17 10:26:10] Mengirim data 50% [Peserta Didik] 
+[2015-10-17 10:26:10] RTS 
+[2015-10-17 10:26:18] push_data_server_parsial 
+[2015-10-17 10:26:19] RTS 
+[2015-10-17 10:26:21] insert_table_sync_log 
+[2015-10-17 10:26:21] Mengirim data 58% [Reg Pd] 
+[2015-10-17 10:26:21] RTS 
+[2015-10-17 10:27:58] push_data_server_parsial 
+[2015-10-17 10:27:59] RTS 
+[2015-10-17 10:27:59] insert_table_sync_log 
+[2015-10-17 10:27:59] Mengirim data 67% [Akt Ajar Dosen] 
+[2015-10-17 10:28:00] RTS 
+[2015-10-17 10:28:09] push_data_server_parsial 
+[2015-10-17 10:28:09] RTS 
+[2015-10-17 10:28:13] insert_table_sync_log 
+[2015-10-17 10:28:13] Mengirim data 75% [Kuliah Mhs] 
+[2015-10-17 10:28:14] RTS 
+[2015-10-17 10:28:17] push_data_server_parsial 
+[2015-10-17 10:28:17] RTS 
+[2015-10-17 10:28:17] insert_table_sync_log 
+[2015-10-17 10:28:17] Mengirim data 83% [Nilai Smt Mhs] 
+[2015-10-17 10:28:18] RTS 
+[2015-10-17 10:28:23] push_data_server_parsial 
+[2015-10-17 10:28:25] RTS 
+[2015-10-17 10:28:28] push_data_server_parsial 
+[2015-10-17 10:28:29] RTS 
+[2015-10-17 10:28:32] push_data_server_parsial 
+[2015-10-17 10:28:32] RTS 
+[2015-10-17 10:28:33] insert_table_sync_log 
+[2015-10-17 10:28:33] Mengirim data 92% [Ekuiv Transfer] 
+[2015-10-17 10:28:33] RTS 
+[2015-10-17 10:28:38] push_data_server_parsial 
+[2015-10-17 10:28:39] RTS 
+[2015-10-17 10:28:39] insert_table_sync_log 
+[2015-10-17 10:28:39] Mengirim data 100% [Akt Ajar Sp] 
+[2015-10-17 10:28:39] RTS 
+[2015-10-17 10:28:42] push_data_server_parsial 
+[2015-10-17 10:28:42] RTS 
+[2015-10-17 10:28:43] insert_table_sync_log 
+[2015-10-17 10:28:43] Mengecek data referensi dari server. 
+[2015-10-17 10:28:43] RTS 
+[2015-10-17 10:28:44] check_update 
+[2015-10-17 10:28:47] Mengambil data referensi 13% [Gelar Akademik] 
+[2015-10-17 10:28:47] RTS 
+[2015-10-17 10:28:48] get_change_server_table_ref 
+[2015-10-17 10:28:48] RTS 
+[2015-10-17 10:28:48] insert_table_sync_log 
+[2015-10-17 10:28:49] Mengambil data referensi 25% [Kelompok Bidang] 
+[2015-10-17 10:28:49] RTS 
+[2015-10-17 10:28:51] get_change_server_table_ref 
+[2015-10-17 10:28:51] RTS 
+[2015-10-17 10:28:51] insert_table_sync_log 
+[2015-10-17 10:28:52] Mengambil data referensi 38% [Jurusan] 
+[2015-10-17 10:28:52] RTS 
+[2015-10-17 10:28:53] get_change_server_table_ref 
+[2015-10-17 10:28:53] RTS 
+[2015-10-17 10:28:53] insert_table_sync_log 
+[2015-10-17 10:28:59] Mengambil data referensi 50% [Jenis Lembaga] 
+[2015-10-17 10:29:00] RTS 
+[2015-10-17 10:29:00] get_change_server_table_ref 
+[2015-10-17 10:29:01] RTS 
+[2015-10-17 10:29:01] insert_table_sync_log 
+[2015-10-17 10:29:05] Mengambil data referensi 63% [Jenis Sms] 
+[2015-10-17 10:29:05] RTS 
+[2015-10-17 10:29:05] get_change_server_table_ref 
+[2015-10-17 10:29:06] RTS 
+[2015-10-17 10:29:06] insert_table_sync_log 
+[2015-10-17 10:29:13] Mengambil data referensi 75% [Tahun Ajaran] 
+[2015-10-17 10:29:13] RTS 
+[2015-10-17 10:29:14] get_change_server_table_ref 
+[2015-10-17 10:29:14] RTS 
+[2015-10-17 10:29:16] insert_table_sync_log 
+[2015-10-17 10:29:16] Mengambil data referensi 88% [Semester] 
+[2015-10-17 10:29:17] RTS 
+[2015-10-17 10:29:20] get_change_server_table_ref 
+[2015-10-17 10:29:20] RTS 
+[2015-10-17 10:29:21] insert_table_sync_log 
+[2015-10-17 10:29:22] Mengambil data referensi 100% [Wilayah] 
+[2015-10-17 10:29:22] RTS 
+[2015-10-17 10:29:22] get_change_server_table_ref 
+[2015-10-17 10:29:23] RTS 
+[2015-10-17 10:29:23] insert_table_sync_log 
+[2015-10-17 10:29:23] Mengecek data dari server. 
+[2015-10-17 10:29:24] RTS 
+[2015-10-17 10:29:32] check_update 
+[2015-10-17 10:29:32] RTS 
+[2015-10-17 10:29:33] check_update 
+[2015-10-17 10:29:33] RTS 
+[2015-10-17 10:29:33] check_update 
+[2015-10-17 10:29:33] RTS 
+[2015-10-17 10:29:33] check_update 
+[2015-10-17 10:29:33] Mengambil data 3% [Yayasan] 
+[2015-10-17 10:29:33] RTS 
+[2015-10-17 10:29:35] get_data_server_paging 
+[2015-10-17 10:29:35] Mengambil data 3% [Yayasan] 
+[2015-10-17 10:29:36] RTS 
+[2015-10-17 10:29:36] insert_table_sync_log 
+[2015-10-17 10:29:36] Mengambil data 5% [Lembaga Non Sp] 
+[2015-10-17 10:29:36] RTS 
+[2015-10-17 10:29:46] ﻿﻿eJwBAAL%2F%2FYOoj44Z6gbxzHfTDgoc0IL1HMZx1rcl5JPCMkz%2FuinATpopBVO07vNS5jJdF5nYDZmHAUW1W2bBzWmvzDmEvhXXknTmkgHb7ApYhTOsE%2BcPFoavk96cZZhswSwuiGeHmUt%2BMaCX20LambKfO73BuPpzn7NqbtcDebgPS85iskZl4HQ0kd9cEjpV9mlmIuqW1czi8xlP4sRdTlY5AYwDBRgBeEKuFm7o86hYEPjJfLpFPLar1HnxWOZ1hSeWCRO6LvS6xWUsmueWSlL0DGiYi8t%2FJEuVtHwjJ2FQ4GCWZyaM5RXtKCtaD4FJMeQdoANMXu1zC%2F%2BlFpe0v%2BwdZT5DLtpKThdleb0bpPK3JIZ2XA9khDWnyBTwSdHJEmCSRo4AMHHLSe%2BzibgwG%2FaAW7BRt9l3guLYiDXBQetKtFhMCOPBnQnWNCvBpgtR2%2FOspT8CUKSAOhgw%2B1F69Xqm4O%2Brjg9qr7MC55E%2BGx0OsuF5xDVXG0DMHn2MqtWopekjvHHW8LeDMqvji0iX%2B7gijBxMbIu8ucQkBqEdLkSx77K740MX0h0rG%2BoTW7S4uBdgLT%2BqmVzl9A5cYw5uGFq1e6rxI5EPVoucskOGk67%2FrmCP8sR2Io3%2BkhfjGfsrzCB3M%2FzQbcgWEr2EESAEB98We%2F%2FWeiuweL8efF6O5xVWJDuL4Ec%2BbJ36WA%3D%3D 
+[2015-10-17 10:29:47] Respon false 
+[2015-10-17 10:29:48] RTS 
+[2015-10-17 10:29:49] get_data_server_paging 
+[2015-10-17 10:29:49] Mengambil data 5% [Lembaga Non Sp] 
+[2015-10-17 10:29:50] RTS 
+[2015-10-17 10:29:50] insert_table_sync_log 
+[2015-10-17 10:29:50] Mengambil data 8% [Satuan Pendidikan] 
+[2015-10-17 10:29:51] RTS 
+[2015-10-17 10:29:52] get_data_server_paging 
+[2015-10-17 10:29:52] Mengambil data 8% [Satuan Pendidikan] 
+[2015-10-17 10:29:53] RTS 
+[2015-10-17 10:29:53] insert_table_sync_log 
+[2015-10-17 10:29:53] Mengambil data 11% [Sms] 
+[2015-10-17 10:29:54] RTS 
+[2015-10-17 10:30:02] get_data_server_paging 
+[2015-10-17 10:30:02] Mengambil data 11% [Sms] 
+[2015-10-17 10:30:03] RTS 
+[2015-10-17 10:30:13] ﻿eJwBAAL%2F%2FYOoj44Z6gbxzHfTDgoc0IL1HMZx1rcl5JPCMkz%2FuinATpopBVO07vNS5jJdF5nYDZmHAUW1W2bBzWmvzDmEvhXXknTmkgHb7ApYhTOsE%2BcPFoavk96cZZhswSwuiGeHmUt%2BMaCX20LambKfO73BuPpzn7NqbtcDebgPS85iskZl4HQ0kd9cEjpV9mlmIuqW1czi8xlP4sRdTlY5AYwDBRgBeEKuFm7o86hYEPjJfLpFPLar1HnxWOZ1hSeWCRO6LvS6xWUsmueWSlL0DGiYi8t%2FJEuVtHwjJ2FQ4GCWZyaM5RXtKCtaD4FJMeQdoANMXu1zC%2F%2BlFpe0v%2BwdZT5DLtpKThdleb0bpPK3JIZ2XA9khDWnyBTwSdHJEmCSRo4AMHHLSe%2BzibgwG%2FaAW7BRt9l3guLYiDXBQetKtFhMCOPBnQnWNCvBpgtR2%2FOspT8CUKSAOhgw%2B1F69Xqm4O%2Brjg9qr7MC55E%2BGx0OsuF5xDVXG0DMHn2MqtWopekjvHHW8LeDMqvji0iX%2B7gijBxMbIu8ucQkBqEdLkSx77K740MX0h0rG%2BoTW7S4uBdgLT%2BqmVzl9A5cYw5uGFq1e6rxI5EPVoucskOGk67%2FrmCP8sR2Io3%2BkhfjGfsrzCB3M%2FzQbcgWEr2EESAEB98We%2F%2FWeiuweL8efF6O5xVWJDuL4Ec%2BbJ36WA%3D%3D 
+[2015-10-17 10:30:14] Respon false 
+[2015-10-17 10:30:15] RTS 
+[2015-10-17 10:30:25] ﻿eJwBAAL%2F%2FYOoj44Z6gbxzHfTDgoc0IL1HMZx1rcl5JPCMkz%2FuinATpopBVO07vNS5jJdF5nYDZmHAUW1W2bBzWmvzDmEvhXXknTmkgHb7ApYhTOsE%2BcPFoavk96cZZhswSwuiGeHmUt%2BMaCX20LambKfO73BuPpzn7NqbtcDebgPS85iskZl4HQ0kd9cEjpV9mlmIuqW1czi8xlP4sRdTlY5AYwDBRgBeEKuFm7o86hYEPjJfLpFPLar1HnxWOZ1hSeWCRO6LvS6xWUsmueWSlL0DGiYi8t%2FJEuVtHwjJ2FQ4GCWZyaM5RXtKCtaD4FJMeQdoANMXu1zC%2F%2BlFpe0v%2BwdZT5DLtpKThdleb0bpPK3JIZ2XA9khDWnyBTwSdHJEmCSRo4AMHHLSe%2BzibgwG%2FaAW7BRt9l3guLYiDXBQetKtFhMCOPBnQnWNCvBpgtR2%2FOspT8CUKSAOhgw%2B1F69Xqm4O%2Brjg9qr7MC55E%2BGx0OsuF5xDVXG0DMHn2MqtWopekjvHHW8LeDMqvji0iX%2B7gijBxMbIu8ucQkBqEdLkSx77K740MX0h0rG%2BoTW7S4uBdgLT%2BqmVzl9A5cYw5uGFq1e6rxI5EPVoucskOGk67%2FrmCP8sR2Io3%2BkhfjGfsrzCB3M%2FzQbcgWEr2EESAEB98We%2F%2FWeiuweL8efF6O5xVWJDuL4Ec%2BbJ36WA%3D%3D 
+[2015-10-17 10:30:26] Respon false 
+[2015-10-17 10:30:26] Error di service sinkronisasi. 
+[2015-10-17 10:30:26] Error di service sinkronisasi. 
